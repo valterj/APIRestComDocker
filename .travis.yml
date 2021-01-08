@@ -12,7 +12,8 @@ deploy:
   script:
     docker push valterz/rest-with-spring-boot-udemy;
     docker push valterz/mysql-rest-with-spring-boot-udemy;
+  skip_cleanup: true
   on:
-    branch: master
+    branch: develop
 notifications:
   email: false    
