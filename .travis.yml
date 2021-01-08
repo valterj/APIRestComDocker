@@ -13,6 +13,6 @@ deploy:
     docker push valterz/rest-with-spring-boot-udemy;
     docker push valterz/mysql-rest-with-spring-boot-udemy;
   on:
-    branch: master
+    branches: master
 notifications:
   email: false    
